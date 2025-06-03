@@ -42,7 +42,7 @@ def inverted_character_pattern(n):
             current_char_code += 1
         start_char_code = current_char_code
         print()
-
+#function for hollow rectangle
 def hollow_rectangle(rows, cols):
     """
     Prints a hollow rectangle pattern of stars.
@@ -59,7 +59,7 @@ def hollow_rectangle(rows, cols):
             else:
                 print(" ", end="")
         print()
-
+#fucntion for inveted rotated half pyramid
 def inverted_rotated_half_pyramid(rows):
     """
     Prints an inverted and rotated right-angled triangle star pattern.
