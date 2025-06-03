@@ -1,5 +1,5 @@
 # patterns.py
-
+# function of star function
 def star_pattern(n):
     """
     Prints a right-angled triangle star pattern.
@@ -25,7 +25,7 @@ def star_pattern(n):
             print(chr(char_code), end="")
             char_code += 1
         print()
-
+#function of inverted character pattern
 def inverted_character_pattern(n):
     """
     Prints an inverted right-angled triangle character pattern.
